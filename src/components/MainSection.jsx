@@ -2,7 +2,7 @@
 import { englishCamp } from '../assets'
 import Iframe from 'react-iframe'
 
-const Main = () => {
+const MainSection = () => {
   return (
     <div>
         <main className="flex flex-col lg:flex-row gap-8 px-4 md:px-16 lg:px-32 py-12">
@@ -44,4 +44,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainSection

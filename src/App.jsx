@@ -1,8 +1,9 @@
 
-import Footer from "./components/footer"
+
+import FooterSection from "./components/FooterSection"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import Main from "./components/main"
+import MainSection from "./components/MainSection"
 import StudentLife from "./components/StudentLife"
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
       <Header />
       <Hero />
       <StudentLife />
-      <Main />
-      <Footer />
+      <MainSection />
+      <FooterSection />
     </>
   )
 }
